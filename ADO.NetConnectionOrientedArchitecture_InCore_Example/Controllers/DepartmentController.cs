@@ -17,7 +17,15 @@ namespace ADO.NetConnectionOrientedArchitecture_InCore_Example.Controllers
         {
             return "asa";
         }
-       
+
+        [HttpGet]
+        [Route("GetAllDepartment1")]
+
+        public string test1()
+        {
+            return "asa";
+        }
+
         //public async Task<IActionResult> 
     }
 }
